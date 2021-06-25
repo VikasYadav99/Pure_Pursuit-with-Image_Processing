@@ -72,15 +72,8 @@ if __name__ == '__main__':
 	bots = [robot(wheel_topics[0], odom_topics[0])] 
 	
 	# array of points' co ordinates sequentially on path to follow (start point, ......, goal point)
-	# x = (0, 0.50, 0.68, 1.99, 2.57, 7.17, 8.50)
-	# y = (0, 0.77, 0.85, 2.55, 3.54, 4.26, 7.27)
-
-	x = np.arange(0, 10, 0.1)
-	y = np.sin(x)
-	y[:] = 1
-	y[0:15] = 0
-	y[30:45] = 0
-
+	x = (0, 0.50, 0.68, 1.99, 2.57, 7.17, 8.50)
+	y = (0, 0.77, 0.85, 2.55, 3.54, 4.26, 7.27)
 
 	points = np.array((x, y)).T 		# converted to  numpy array
 
