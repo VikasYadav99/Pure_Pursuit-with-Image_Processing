@@ -9,3 +9,5 @@
 6. Open new tab in the terminal and run the controls.py script. (rosrun vac_description controls.py)
 
 Now you can see the robot following the pre-defined path.
+
+Program for locomotion and pure pursuit controller are in controls.py, pure_pursuit.py and image_process.py under scripts folder.
