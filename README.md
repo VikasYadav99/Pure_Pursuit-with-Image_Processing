@@ -7,4 +7,5 @@
 4. Source the environment. (source devel/setup.bash)
 5. Launch the gazebo.launch file. (roslaunch vac_description gazebo.launch)
 6. Open new tab in the terminal and run the controls.py script. (rosrun vac_description controls.py)
+
 Now you can see the robot following the pre-defined path.
