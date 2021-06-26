@@ -10,7 +10,6 @@ project(vac_description)
 find_package(catkin REQUIRED COMPONENTS
   rospy
   cv_bridge
-  image_transform
 )
 
 ## System dependencies are found with CMake's conventions
