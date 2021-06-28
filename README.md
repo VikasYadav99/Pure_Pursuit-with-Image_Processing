@@ -11,3 +11,5 @@
 Now you can see the robot following the pre-defined path.
 
 Program for locomotion and pure pursuit controller are in controls.py, pure_pursuit.py and image_process.py under scripts folder.
+
+In the video file sine_wave_follow.mkv, robot is following a sine wave with a look ahead distance of 35cm. The moving blue circle the position of robot and the smaller green circle is the look ahead point in front of robot.
